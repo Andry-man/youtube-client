@@ -8,13 +8,22 @@ import { SearchItemComponent } from './components/search-item/search-item.compon
 import { IheaderComponent } from './components/iheader/iheader.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material.module';
+import { LoginBlockComponent } from './components/iheader/login-block/login-block.component';
+import { LogoComponent } from './components/iheader/logo/logo.component';
+import { SearchInputAndButtonComponent } from './components/iheader/search-input-and-button/search-input-and-button.component';
+import { SettinggButtonComponent } from './components/iheader/settingg-button/settingg-button.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     SearchResultsComponent,
     SearchItemComponent,
-    IheaderComponent
+    IheaderComponent,
+    LoginBlockComponent,
+    LogoComponent,
+    SearchInputAndButtonComponent,
+    SettinggButtonComponent,
   ],
   imports: [
     BrowserModule,
