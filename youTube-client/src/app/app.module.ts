@@ -12,6 +12,7 @@ import { LoginBlockComponent } from './components/iheader/login-block/login-bloc
 import { LogoComponent } from './components/iheader/logo/logo.component';
 import { SearchInputAndButtonComponent } from './components/iheader/search-input-and-button/search-input-and-button.component';
 import { SettinggButtonComponent } from './components/iheader/settingg-button/settingg-button.component';
+import { SortingBlockComponent } from './components/iheader/sorting-block/sorting-block.component';
 
 
 @NgModule({
@@ -24,6 +25,7 @@ import { SettinggButtonComponent } from './components/iheader/settingg-button/se
     LogoComponent,
     SearchInputAndButtonComponent,
     SettinggButtonComponent,
+    SortingBlockComponent,
   ],
   imports: [
     BrowserModule,

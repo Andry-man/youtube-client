@@ -1,0 +1,21 @@
+.login_img {
+  width: 62px;
+  height: auto;
+  cursor: pointer;
+}
+.login_block {
+  position: absolute;
+  display: flex;
+  width: max-content;
+  align-items: center;
+  margin-top: -0.2%;
+  margin-left: 6%;
+}
+.firstName {
+  color: #191919;
+  font-size: 1.5em;
+}
+.lastName {
+  color: #191919;
+  font-size: 1.5em;
+}
