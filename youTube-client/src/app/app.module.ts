@@ -13,6 +13,9 @@ import { LogoComponent } from './components/iheader/logo/logo.component';
 import { SearchInputAndButtonComponent } from './components/iheader/search-input-and-button/search-input-and-button.component';
 import { SettinggButtonComponent } from './components/iheader/settingg-button/settingg-button.component';
 import { SortingBlockComponent } from './components/iheader/sorting-block/sorting-block.component';
+import { ByWordComponent } from './components/iheader/sorting-block/by-word/by-word.component';
+import { DateComponent } from './components/iheader/sorting-block/date/date.component';
+import { ViewsComponent } from './components/iheader/sorting-block/views/views.component';
 
 
 @NgModule({
@@ -26,6 +29,9 @@ import { SortingBlockComponent } from './components/iheader/sorting-block/sortin
     SearchInputAndButtonComponent,
     SettinggButtonComponent,
     SortingBlockComponent,
+    ByWordComponent,
+    DateComponent,
+    ViewsComponent,
   ],
   imports: [
     BrowserModule,

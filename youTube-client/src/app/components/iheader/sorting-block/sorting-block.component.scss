@@ -17,6 +17,9 @@
   font-weight: normal;
   color: crimson;
   cursor: pointer;
+  &:hover {
+    text-decoration: underline;
+  }
 }
 .sorting_input {
   left: 2%;
@@ -24,4 +27,11 @@
   position: relative;
   display: flex;
   outline: none;
+
+}
+.activeSort {
+text-decoration: underline;
+}
+p {
+  color: #b9b9b9;
 }
