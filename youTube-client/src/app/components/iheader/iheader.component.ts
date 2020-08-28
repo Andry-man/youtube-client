@@ -1,15 +1,14 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-iheader',
   templateUrl: './iheader.component.html',
   styleUrls: ['./iheader.component.scss']
 })
-export class IheaderComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
+export class IheaderComponent  {
+  public mynumber:boolean = false;
+  public bools = this.mynumber;
+  constructor() {
   }
 
 }

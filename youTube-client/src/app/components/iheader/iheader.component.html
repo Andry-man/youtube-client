@@ -3,11 +3,10 @@
     <app-logo></app-logo>
     <app-search-input-and-button></app-search-input-and-button>
     <button class="button_search" mat-button>Search</button>
-    <app-settingg-button></app-settingg-button>
+    <app-settingg-button [mynumber]="mynumber" (clickButton)="bools =! bools"></app-settingg-button>
     <app-login-block></app-login-block>
   </div>
-
 </div>
-
+<app-sorting-block  *ngIf="bools" class="sorting_text" ></app-sorting-block>
 
 
