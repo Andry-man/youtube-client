@@ -16,6 +16,8 @@ import { SortingBlockComponent } from './components/iheader/sorting-block/sortin
 import { ByWordComponent } from './components/iheader/sorting-block/by-word/by-word.component';
 import { DateComponent } from './components/iheader/sorting-block/date/date.component';
 import { ViewsComponent } from './components/iheader/sorting-block/views/views.component';
+import { ItemInfoComponent } from './components/search-item/item-info/item-info.component';
+
 
 
 @NgModule({
@@ -32,6 +34,7 @@ import { ViewsComponent } from './components/iheader/sorting-block/views/views.c
     ByWordComponent,
     DateComponent,
     ViewsComponent,
+    ItemInfoComponent,
   ],
   imports: [
     BrowserModule,

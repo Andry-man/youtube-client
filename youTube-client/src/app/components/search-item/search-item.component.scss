@@ -1,5 +1,11 @@
 .searchItem_app {
-  background-color: coral;
+  background-color: #d8d8d8;
   width: 200px;
-  height: 200px;
+  min-height: 94%;
+  max-height: 94%;
+  display: flex;
+  border-radius: 5px 5px 5px 5px;
+  margin-bottom: 12%;
+  box-shadow: 4px 0px 2px -1px rgb(158 158 158);
+  border-bottom: 5px solid #1C6EA4;
 }
