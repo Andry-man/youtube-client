@@ -17,6 +17,11 @@ import { ByWordComponent } from './components/iheader/sorting-block/by-word/by-w
 import { DateComponent } from './components/iheader/sorting-block/date/date.component';
 import { ViewsComponent } from './components/iheader/sorting-block/views/views.component';
 import { ItemInfoComponent } from './components/search-item/item-info/item-info.component';
+import { NofoundComponent } from './components/nofound/nofound.component';
+import { UserPageComponent } from './components/user-page/user-page.component';
+import { AdminPageComponent } from './module/admin/admin-page/admin-page.component';
+import { HomePageComponent } from './components/home-page/home-page.component';
+
 
 
 
@@ -35,6 +40,10 @@ import { ItemInfoComponent } from './components/search-item/item-info/item-info.
     DateComponent,
     ViewsComponent,
     ItemInfoComponent,
+    NofoundComponent,
+    UserPageComponent,
+    // AdminPageComponent,
+    HomePageComponent,
   ],
   imports: [
     BrowserModule,

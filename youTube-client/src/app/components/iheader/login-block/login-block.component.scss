@@ -2,7 +2,18 @@
   width: 62px;
   height: auto;
   cursor: pointer;
+  outline: none;
+    @media screen and (max-width: 602px) {
+    width: 62px;
+    height: auto;
+    position: fixed;
+    cursor: pointer;
+    top: 1%;
+    left: 1%;
+    outline: none;
 }
+}
+
 .login_block {
   position: absolute;
   display: flex;
@@ -10,12 +21,19 @@
   align-items: center;
   margin-top: -0.2%;
   margin-left: 6%;
+
 }
 .firstName {
   color: #191919;
   font-size: 1.5em;
+  @media screen and (max-width: 1294px) {
+  display: none;
+}
 }
 .lastName {
   color: #191919;
   font-size: 1.5em;
+  @media screen and (max-width: 1294px) {
+  display: none;
+}
 }

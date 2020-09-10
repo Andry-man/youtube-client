@@ -11,6 +11,13 @@
   margin: auto;
   display: flex;
   padding-top: 41px;
+  @media screen and (max-width: 340px) {
+    width: auto;
+    height: 50%;
+    margin: auto auto auto 4vw;
+    display: flex;
+    padding-top: 41px;
+}
 }
 .button_search {
   width: 42%;
@@ -23,6 +30,18 @@
   border-radius: 0px 4px 4px 0px;
   background-color: #307fed;
   box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.75);
+  @media screen and (max-width: 602px) {
+    width: 14%;
+    min-width: 17%;
+    height: 34px;
+    padding: 0;
+    line-height: 25px;
+    border: none;
+    color: white;
+    border-radius: 0px 4px 4px 0px;
+    background-color: #307fed;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.75);
+}
 }
 .header_block_two {
   display: flex;

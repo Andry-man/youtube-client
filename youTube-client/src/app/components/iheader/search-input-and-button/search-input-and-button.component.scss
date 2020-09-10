@@ -6,6 +6,15 @@
   max-width: 404px;
   outline:none;
   background-color: white;
+  @media screen and (max-width: 602px) {
+  width: 36vw;
+  height: 16px;
+  border: none;
+  outline: none;
+  background-color: white;
+  min-width: 152px;
+  max-width: none;
+}
 }
 
 .settings_icon {

@@ -1,9 +1,21 @@
-<img class="item_image" src="../../../../assets/image/itemImage.png" alt="itemImage">
-<div class="item-containerInfo" >
-<img class="img_svg"  src="../../../../assets/image/viewed.svg"  alt="imgView"><p>1000</p>
-<img src="../../../../assets/image/liked.svg" alt="imgLike"><p>5000</p>
-<img src="../../../../assets/image/dislike.svg" alt="imgDisLike"><p>244</p>
-<img src="../../../../assets/image/comment.svg" alt="imgcomment"><p>44</p>
+<button  (click)="swichButton =!swichButton" mat-raised-button color="warn" class="item_button_back" [class.item_button_back_show]="swichButton === true">  < </button>
+<div class="card_container" [class.show_card]="swichButton === true">
+  <img class="item_image" [class.item_image_show]="swichButton === true" src="../../../../assets/image/itemImage.png" alt="itemImage">
+  <div class="card_description" [class.card_description_show]="swichButton === true">
+  <div class="item-containerInfo" [class.item-containerInfo_show]="swichButton === true">
+  <img src="../../../../assets/image/viewed.svg"  alt="imgView"><p>1000</p>
+  <img src="../../../../assets/image/liked.svg" alt="imgLike"><p>5000</p>
+  <img src="../../../../assets/image/dislike.svg" alt="imgDisLike"><p>244</p>
+  <img src="../../../../assets/image/comment.svg" alt="imgcomment"><p>44</p>
+  </div>
+  <div  [routerLink]="['card/:more']" class="card_container_for_titleButton" [class.card_container_for_titleButton_show]="swichButton === true">
+    <p class="item_date"[class.item_date_show]="swichButton === true">date</p>
+    <p class="card_title"[class.card_title_show]="swichButton === true" >Card Tile!</p>
+    <p class="item_description"[class.item_description_show]="swichButton === true">Description:</p>
+    <p class="item_descriptionInfo" [class.item_descriptionInfo_show]="swichButton === true">Lorem ipsum dolor sit amet consectetur adipisicing elit. A vero porro quae voluptate fugiat exercitationem quod doloribus itaque in similique impedit aut quia minus temporibus soluta, quo sunt assumenda fuga?</p>
+
+    <button (click)="swichButton =!swichButton" class="button_more" mat-flat-button>more..</button>
+  </div>
 </div>
-<p class="card_title" >Card Tile!</p>
-<button class="button_more" mat-flat-button>more..</button>
+</div>
+

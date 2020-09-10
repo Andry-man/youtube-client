@@ -1,11 +1,21 @@
 .searchItem_app {
-  background-color: #d8d8d8;
-  width: 200px;
-  min-height: 94%;
-  max-height: 94%;
   display: flex;
-  border-radius: 5px 5px 5px 5px;
-  margin-bottom: 12%;
-  box-shadow: 4px 0px 2px -1px rgb(158 158 158);
-  border-bottom: 5px solid #1C6EA4;
+  background-color: red;
+  width: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+    @media screen and (max-width: 768px) {
+
+  display: flex;
+  background-color: green;
+  width: auto;
+  margin:auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
 }
+
+}
+
