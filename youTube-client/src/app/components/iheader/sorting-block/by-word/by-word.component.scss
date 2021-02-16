@@ -1,0 +1,22 @@
+p {
+  cursor: pointer;
+  color: #307fed;
+  &:active {
+    color: grey;
+    text-decoration: underline;
+  }
+  &:hover {
+    color:red;
+  }
+}
+.active {
+  cursor: pointer;
+  color: #307fed;
+  text-decoration: underline;
+  &:active {
+    color: grey;
+  }
+  &:hover {
+    color:red;
+  }
+}

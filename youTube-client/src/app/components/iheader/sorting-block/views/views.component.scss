@@ -1,0 +1,21 @@
+.views {
+  cursor: pointer;
+  color: #307fed;
+  &:active {
+    color: grey;
+  }
+  &:hover {
+    color:red;
+  }
+}
+.active {
+  cursor: pointer;
+  color: #307fed;
+  text-decoration: underline;
+  &:active {
+    color: grey;
+  }
+  &:hover {
+    color:red;
+  }
+}
